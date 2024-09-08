@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: #163A24;
+    height: 98px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family:"Noto Sans", sans-serif;
+}
+
+.container{
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.header__link{
+    color:white;
+}
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn{
+    background-color: green;
+    padding: 15px 25px;
+    border-radius: 160px;
+    color: white;
+}
+
+.first_section{
+    background-color: #163A24;
+    height: calc(100vh - 98px);
+    background-image: url("../img/men.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+
+.first_section__text-block{
+    color: white;
+    max-width: 475px;
+    padding-top: 120px;
+}
+
+.section__title{
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: "Lilita One", sans-serif;
+}
+
+.section__sun-title{
+    font-size: 18px;
+}
+
+.second_section{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    height: 1200px;
+}
+
+.second_section__info_{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.info_h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.info_h3_text{
+    color: #163A24;
+    display: flex;
+    width: 350px;
+}
+
+.info_h3_subtext{
+    display: flex;
+    width: 350px;
+}
+
+.second_section__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.info_subtext{
+    color: #163A24;
+}
+
+.third_section{
+    background-color: #163A24;
+    height: 650px;
+}
+
+.third_section__title{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 130px;
+}
+
+.third_section__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.third_section__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 66px 130px; 
+}
+
+.third_section__info_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.third_section__subtext{
+    display: flex;
+    text-align: center;
+    width: 190px;
+    color: white;
+}
+
+.fourth_section__container{
+    height: 775px;
+    background-color: #F2EFE6;
+}
+
+.fourth_section__cont{
+    display: flex;
+    flex-direction: column;
+    height: 775px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.fourth_section__info{
+    width: 703px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth_section__text{
+    text-align: center;
+    color: #163A24;
+}
+
+.fourth_section__subtext{
+    width: auto ;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: -50px;
+    color: #163A24;
+    font-weight: 500px;
+}
+
+.subtext_fifth{
+    width: 380px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.fifth_section{
+    height: 1400px;
+}
+
+.text_fifth{
+    color: #163A24;
+}
+
+.fifth_section__start{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+}
+
+.info_fifth{
+    width: 350px;
+}
+
+.fifth_section__container{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+}
+
+.info_fifth_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_pics{
+    display: flex;
+    align-items: start;
+}
+
+.footer{
+    height: 194px;
+}
+
+.footer__start{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer__title_text{
+    font-family: "Lilita One", sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: end;
+    color: #163A24;
+}
+
+.footer__start_logos{
+    display: flex;
+    justify-content: end;
+    gap: 14px;
+}
+
+.footer__foot{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__info_inc_text{
+    font-size: 14px;
+}
+
+.footer__info_about{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.footer__info_about_text{
+    color: #198C36;
+}
